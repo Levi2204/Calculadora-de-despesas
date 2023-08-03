@@ -24,6 +24,6 @@ else:
 resultado = sum(faturaTotal) - sum(guardadoTotal)
 print('-'*20)
 if resultado <= 0:
-    print('Você tem nenhuma divida e tem {} reais sobrando'.format(resultado))
+    print('Você tem nenhuma divida e tem {:.2f} reais sobrando'.format(resultado))
 elif resultado > 0:
-    print('Você tem uma divida de {} reais'.format(resultado))
+    print('Você tem uma divida de {:.2f} reais'.format(resultado))
